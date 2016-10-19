@@ -6,8 +6,8 @@ You may compile according to the directions below.
 
 To compile: make suggestwords
 
-To run: ./suggestwords <a file name> <a string> <integer edit-distance threshold> 
+To run: ./suggestwords (a file name) (a string) (integer edit-distance threshold)
 
 Description:
 
-The suggestwords program takes three command-line arguments: <a file name> where the file will be a list of words with one word on each line, <a string>, and an <integer edit-distance threshold>. The program goes through the file and print the words whose edit distance from the given string is at most the given threshold.
+The suggestwords program takes three command-line arguments: (a file name) where the file will be a list of words with one word on each line, (a string), and an (integer edit-distance threshold). The program goes through the file and print the words whose edit distance from the given string is at most the given threshold.
